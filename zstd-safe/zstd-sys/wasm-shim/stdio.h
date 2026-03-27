@@ -13,9 +13,9 @@ typedef void* FILE;
 #define	fflush(a1) (__builtin_unreachable(), 0)
 #define	realloc(a1, a2) (__builtin_unreachable(), -100)
 
-#define	SEEK_SET    1
-#define	SEEK_CUR    2
-#define	SEEK_END    3
+#define	SEEK_SET    0
+#define	SEEK_CUR    1
+#define	SEEK_END    2
 
 
 #endif // _STDIO_H
